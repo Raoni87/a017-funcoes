@@ -8,7 +8,7 @@ console.log(soma(4, 5));
 
 //b)
 
-function verificarDado(a, b) {
+function verificarDado(a, b) { //função para verificar se o primeiro numero é maior que o segundo
     if(a >= b) 
     return (true)
     else {
@@ -16,7 +16,7 @@ function verificarDado(a, b) {
     }
     }
 
-console.log(verificarDado(5, 5));
+console.log(verificarDado(5, 5)); 
 
 //c)
 

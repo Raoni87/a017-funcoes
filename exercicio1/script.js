@@ -27,7 +27,7 @@
 
 //a-2)
 
-meuNome=(nome) => {
+meuNome=(nome) => {                         
     return (`Olá, ${nome}`);
 }
 
@@ -39,8 +39,8 @@ console.log(name);
 
 tabuada=() => {
     for(i = 1; i <= 10; i++)
-    console.log(6 * i);
-}
+    console.log(6 * i);                             //com return, o código não dá o resultado esperado
+}       
 
 console.log(tabuada());
 

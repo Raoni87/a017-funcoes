@@ -1,6 +1,6 @@
 function soma(a, b) 
 {
-    return (Number(prompt("Digite o primeiro número para soma")) + Number(prompt("Digite o segundo número para soma")))
+    return (Number(prompt("Digite o primeiro número para soma")) + Number(prompt("Digite o segundo número para soma"))) //forma de usar o prompt dentro de uma function
 }
 
 console.log(`O resultado da soma é ${soma()}`);
